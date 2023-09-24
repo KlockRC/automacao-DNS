@@ -30,7 +30,7 @@ fi
 
 #perguntas necessarias
 
-echo "qual é o dominio do seu site?"
+echo "qual é o dominio do seu site? (sem www ) (com .com/.local)"
 read site
 echo "qual o dominio do seu site sem o (.com/.local)"
 read site1
