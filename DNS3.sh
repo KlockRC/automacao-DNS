@@ -80,7 +80,7 @@ echo "			  86400		; Retry" >> $pasta/db.$site
 echo "			2419200		; Expire" >> $pasta/db.$site
 echo "			  86400 )	; Negative Cache TTL" >> $pasta/db.$site
 echo ";" >> $pasta/db.$site
-echo "@	    IN	NS  ns1.$site1.loca." >> $pasta/db.$site
+echo "@	    IN	NS  ns1.$site1.local." >> $pasta/db.$site
 echo "ns1   IN  A   $web" >> $pasta/db.$site
 echo "www   IN  A   $web" >> $pasta/db.$site
 systemctl restart bind9
